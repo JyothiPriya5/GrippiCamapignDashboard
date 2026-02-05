@@ -5,7 +5,7 @@ function App() {
   const [filter, setFilter] = useState("All");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/campaigns")
+    fetch("https://grippicamapigndashboard-production.up.railway.app/campaigns")
       .then((res) => res.json())
       .then((data) => setCampaigns(data))
       .catch((err) => console.log("API Error:", err));
