@@ -34,5 +34,5 @@ GET /campaigns
 
 ## Live Links
 
-Frontend: <VERCEL_URL>  
-Backend: <RAILWAY_URL>
+Frontend: https://grippi-camapign-dashboard.vercel.app/ 
+Backend :  https://grippicamapigndashboard-production.up.railway.app/campaigns
